@@ -1,3 +1,6 @@
+#Workflow rescrito para utilizar workflow reutilizável
+#         uses: PajmaB/php-workflows/.github/workflows/login.yml@master
+
 name: CI via Workflow Reutilizável
 
 on:
