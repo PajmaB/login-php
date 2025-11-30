@@ -1,7 +1,4 @@
-# Workflow rescrito para utilizar o workflow Reutilizável
-#         uses: PajmaB/php-workflows/.github/workflows/login.yml@master
-
-name: CI via Workflow Reutilizável 
+name: Teste de Login
 
 on:
   push:
@@ -9,5 +6,5 @@ on:
   pull_request:
 
 jobs:
-  login:
+  executar-login:
     uses: PajmaB/php-workflows/.github/workflows/login.yml@master
